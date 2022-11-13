@@ -1,0 +1,4 @@
+Profesor, por favor considerar que el diseño
+No es responsive…lo hice en dimensiones de 1440 x 900… También le dejo un link donde se puede ver subido:
+
+https://examen-mabels-dsw.netlify.app/
