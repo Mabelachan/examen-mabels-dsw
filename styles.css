@@ -167,8 +167,7 @@ form h2 + p{
 .contactButton{
     font-size: 20px;
     text-align: center;
-    width: 300px;
-    height: 40px;
+    padding: 10px 100px 10px 100px;
     background: rgba(255, 255, 255, 0.85);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -358,29 +357,28 @@ p + img{
 /**************************** MODAL LOGIN ****************************/
 input[type=text], input[type=password] {
 width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-display: inline-block;
-border: 1px solid #ccc;
-box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 /* Set a style for all buttons */
 button {
-background-color: #04AA6D;
-color: white;
-padding: 14px 20px;
-margin: 8px 0;
-border: none;
-cursor: pointer;
-width: 100%;
+    background-color: rgb(136, 91, 0);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
 }
-
 button:hover {
-opacity: 0.8;
+    opacity: 0.8;
 }
 
 span.psw {
-float: right;
-padding-top: 16px;
+    float: right;
+    padding-top: 16px;
 }
