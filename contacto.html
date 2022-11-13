@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="container-contacto">
+        <div class="header">
+            <nav class="contact-nav">
+                <ul class="menu">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="elaboracion.html"><li>Elaboración</li></a>
+                    <a href="productos.html"><li>Productos</li></a>
+                    <a href="contacto.html" class="menu-selected"><li>Contacto</li></a>
+                    <a href="#"><li>Login</li></a>
+                </ul>
+            </nav>
+        </div>
+        
+        <form>
+            <h2 class="form-title">Formulario de contacto</h2>
+            <p>Queremos saber de ti, y que nos cuentes como podemos mejorar nuestros procesos de publicidad, distribución o producción,
+                por favor rellena el siguiente formulario de contacto para saber tus opiniones.
+            </p>
+            <div class="form">
+                <div class="nombre">
+                    <p for="name">Nombre Completo</p>
+                    <input type="text" name="name">
+                </div>
+                <div class="ciudad">
+                    <p for="city">Ciudad</p>
+                    <input type="text" name="city">
+                </div>
+                <div class="numero">
+                    <p for="phone">Teléfono</p>
+                    <input type="number" name="phone">
+                </div>
+                <div class="correo">
+                    <p for="email">Correo</p>
+                    <input type="email" name="email">
+                </div>
+            </div>
+            <a class="contactButton" onclick="document.getElementById('id01').style.display='block'">Enviar</a>
+        </form>
+        
+        <div id="id01" class="modal">
+            <form class="modal-content animate">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <div class="container-modal">
+                    <p>Se ha enviado su mensaje. En breves instantes nos contactaremos con usted.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <span>Copyright 2022 Cervecería Nacional MS SPA - Todos los derechos reservados.</span>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
